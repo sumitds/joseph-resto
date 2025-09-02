@@ -1,23 +1,53 @@
 {
   "name": "joseph-resto",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.4.5"
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "formik": "^2.4.5",
+    "gray-matter": "^4.0.3",
+    "isotope-layout": "^3.0.6",
+    "mapbox-gl": "^3.2.0",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.17.0",
+    "next": "^14.2.31",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-modal-video": "^2.0.1",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1",
+    "sass": "^1.89.2",
+    "sticky-js": "^1.3.0",
+    "swiper": "^9.0.0",
+    "yet-another-react-lightbox": "^3.17.2"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.4.5",
-    "@eslint/eslintrc": "^3"
-  }
+    "tailwindcss": "^4"
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumitds/joseph-resto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumitds/joseph-resto/issues"
+  },
+  "homepage": "https://github.com/sumitds/joseph-resto#readme"
 }
