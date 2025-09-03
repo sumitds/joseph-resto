@@ -1,4 +1,5 @@
 "use client";
+import React, { Suspense } from "react";
 import dynamic from "next/dynamic";
 
 import ScrollHint from "@layouts/scroll-hint/Index";
@@ -41,7 +42,8 @@ export default function SlidersClient() {
             <div className="container tst-p-60-60">
               <TestimonialSlider />
               <Divider onlyBottom={0} />
-              
+              <Suspense fallback={<div>Loading...</div>}>
+              </Suspense>
               <Divider onlyBottom={0} />
               <SubscribeSection />
             </div>
